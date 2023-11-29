@@ -1,0 +1,71 @@
+.user_card {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.user_photo {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid #fff;
+}
+
+.user_info {
+    padding: 20px;
+}
+
+.user_name {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.user_status {
+    font-style: italic;
+}
+
+.user_location {
+    font-size: 1.2em;
+}
+
+.country,
+.city {
+    margin-top: 10px;
+}
+
+.subscribe_button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.user_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Выравниваем по центру */
+    align-items: center;
+    /* Выравниваем по центру */
+    /* height: 100vh; */
+    /* Устанавливаем высоту блока равной высоте экрана */
+    box-sizing: border-box;
+    /* Рассчитываем размеры включая padding и border */
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}

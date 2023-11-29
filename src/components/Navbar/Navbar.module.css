@@ -1,0 +1,21 @@
+.nav {
+    grid-area: n;
+    background-color: green;
+    padding: 10px;
+}
+
+.nav_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*.active{*/
+/*    color: greenyellow;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*.item{*/
+/*    color: cornflowerblue;*/
+/*}*/

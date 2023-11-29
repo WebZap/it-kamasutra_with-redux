@@ -1,0 +1,9 @@
+.messageBlock {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.textArea{
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.dialog{
+    display: block;
+}
+
+.active{
+    color: greenyellow;
+    font-size: 15px;
+}
+
+.item{
+    color: cornflowerblue;
+    display: block;
+}

@@ -1,0 +1,17 @@
+.box {
+    grid-area: f;
+    background-color: green;
+}
+
+.friends_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapp_friends{
+    display: flex;
+    flex-wrap: wrap;
+}
